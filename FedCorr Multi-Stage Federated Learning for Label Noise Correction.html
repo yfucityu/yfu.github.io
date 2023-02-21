@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Invited talk: XU Jingyi</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">ICUC<span class="logo_colour">&nbsp;Laboratory</span></a></h1>
+          <h2>Intelligent Communications and Ubiquitious Connectivity Laboratory</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li class="selected"><a href="Activities.html">Activities</a></li>
+          <li><a href="Research.html">Research</a></li>
+          <li><a href="Publications.html">Publications&nbsp;</a></li>
+		  <li><a href="Group.html">Group</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!-- insert your sidebar items here -->
+            <h3>Latest News</h3>
+            <h4>presentation</h4>
+            <h5>February 24th, 2023</h5>
+			<h5>XU Jingyi will give a presentation on the topic of federated learning.</h5>
+			<br />
+          <a href="LatestNews.html">Read more</a>          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="https://www.hkmu.edu.hk/st/people/key-staff/staff-profile/?email=yfu&unit=S&T&po=N/">Link to Staff Profile page</a><a href="#"></a></li>
+              <li><a href="https://scholar.google.com/citations?hl=en&user=wucCcJQAAAAJ">Link to Google Scholar page</a><a href="#"></a></li>
+              <li><a href="https://www.researchgate.net/profile/Yaru_Fu">Link to personal homepage</a></li>
+            </ul>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1><a href="https://openaccess.thecvf.com/content/CVPR2022/html/Xu_FedCorr_Multi-Stage_Federated_Learning_for_Label_Noise_Correction_CVPR_2022_paper.html">FedCorr: Multi-Stage Federated Learning for Label Noise Correction </a> </h1>
+<hr>
+        <ul>
+          <li>
+            <h3>Time &amp; Venue</h3>
+            <ul>
+				<li>14:00 - 15:00, 24/02/2023 (Fri.)</li>
+              	<li>D1115, JCC Campus, Hong Kong Metropolitan University</li>
+            </ul>
+          <li>
+            <h3>Abstract</h3>
+            <ul>
+              <li>Federated learning (FL) is a privacy-preserving distributed learning paradigm that enables clients to jointly train a global model. In real-world FL implementations, client data could have label noise, and different clients could have vastly different label noise levels. Although there exist methods in centralized learning for tackling label noise, such methods do not perform well on heterogeneous label noise in FL settings, due to the typically smaller sizes of client datasets and data privacy requirements in FL. In this paper, we propose FedCorr, a general multi-stage framework to tackle heterogeneous label noise in FL, without making any assumptions on the noise models of local clients, while still maintaining client data privacy. In particular, (1) FedCorr dynamically identifies noisy clients by exploiting the dimensionalities of the model prediction subspaces independently measured on all clients, and then identifies incorrect labels on noisy clients based on per-sample losses. To deal with data heterogeneity and to increase training stability, we propose an adaptive local proximal regularization term that is based on estimated local noise levels. (2) We further finetune the global model on identified clean clients and correct the noisy labels for the remaining noisy clients after finetuning. (3) Finally, we apply the usual training on all clients to make full use of all local data. Experiments conducted on CIFAR-10/100 with federated synthetic label noise, and on a real-world noisy dataset, Clothing1M, demonstrate that FedCorr is robust to label noise and substantially outperforms the state-of-the-art methods at multiple noise levels.</li>
+            </ul>
+          </li>
+        </ul>
+        <hr>
+        <h2>biography</h2>
+        <ul>
+            <ul>
+              <li>Jingyi Xu is a Ph.D. Candidate at Singapore University of Technology and Design, under the supervision of Prof. Ernest Chong and Prof. Tony Quek. Before joining SUTD, she received her Bachelor's degree from Fudan University. Her research interests lie in algebraic machine reasoning, federated learning, and robust learning with label noise.</li>
+            </ul>
+        <h5>&nbsp;</h5>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="index.html">Home</a> | <a href="Activities.html">Activities</a> | <a href="Research.html">Research</a> | <a href="Publications.html">Publication</a> | <a href="Group.html">Group</a></p>
+      <p>Copyright &copy; simplestyle_banner | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">HTML5 Web Templates</a></p>
+    </div>
+  </div>
+</body>
+</html>
